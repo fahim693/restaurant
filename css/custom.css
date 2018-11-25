@@ -1,0 +1,67 @@
+.body {
+  padding-top: 54px;
+}
+
+header.masthead{
+  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/menu-restaurant-vintage-table.jpg);
+  /* background-image: url(../img/menu-restaurant-vintage-table.jpg) !important; */
+}
+
+.btn-primary{
+  background-color: #203e6d;
+}
+.btn-primary:hover{
+  background-color: #506891 !important;
+}
+.bg-primary{
+  background-color: #203e6d !important;
+}
+/* #mainNav .navbar-brand{
+  color: #203e6d;
+} */
+#mainNav .navbar-brand:hover{
+  color: #fff;
+}
+#mainNav.navbar-shrink .navbar-brand{
+  color: #203e6d;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active{
+  color: #203e6d !important;
+}
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover{
+  color: #203e6d !important;
+}
+hr{
+  border-color: #203e6d
+}
+#email_address{
+  color: #203e6d;
+}
+.contact-form{
+  /* padding-top: 30px; */
+  padding-bottom: 40px;
+}
+.contact-section{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* footer{
+  padding: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+
+
+
+@media (min-width: 992px) {
+  .body {
+    padding-top: 56px;
+  }
+}
